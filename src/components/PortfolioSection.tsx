@@ -6,37 +6,37 @@ const PortfolioSection: React.FC = () => {
     {
       id: 1,
       title: 'Classic Fade',
-      image: 'https://placehold.co/400x300/1a1a1a/d4af37?text=Classic+Fade',
+      image: '/1.jpg',
       category: 'Haircut'
     },
     {
       id: 2,
       title: 'Beard Styling',
-      image: 'https://placehold.co/400x300/1a1a1a/d4af37?text=Beard+Styling',
+      image: '/2.jpg',
       category: 'Grooming'
     },
     {
       id: 3,
       title: 'Modern Pompadour',
-      image: 'https://placehold.co/400x300/1a1a1a/d4af37?text=Modern+Pompadour',
+      image: '/3.jpg',
       category: 'Styling'
     },
     {
       id: 4,
       title: 'Traditional Cut',
-      image: 'https://placehold.co/400x300/1a1a1a/d4af37?text=Traditional+Cut',
+      image: '/4.jpg',
       category: 'Haircut'
     },
     {
       id: 5,
       title: 'Mustache Trim',
-      image: 'https://placehold.co/400x300/1a1a1a/d4af37?text=Mustache+Trim',
+      image: '/1.jpg',
       category: 'Grooming'
     },
     {
       id: 6,
       title: 'Undercut Style',
-      image: 'https://placehold.co/400x300/1a1a1a/d4af37?text=Undercut+Style',
+      image: '/2.jpg',
       category: 'Styling'
     }
   ];

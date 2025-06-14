@@ -34,8 +34,8 @@ const LocationSection: React.FC = () => {
                   <div>
                     <h4 className="text-lg font-semibold mb-1">Alamat</h4>
                     <p className="text-gray-400 leading-relaxed">
-                      Jl. Barbershop No. 123<br />
-                      Jakarta Selatan, DKI Jakarta
+                      RUMAH CUKUR<br />
+                      Jl. Letkol Istiqlah No.135, Lingkungan Mojoroto R, Penataban, Kec. Giri, Kabupaten Banyuwangi, Jawa Timur 68422
                     </p>
                   </div>
                 </div>
@@ -79,7 +79,7 @@ const LocationSection: React.FC = () => {
             <div className="bg-dark-800 p-4 rounded-xl border border-dark-700">
               <div className="aspect-[4/3] rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613507864!3d-6.194637395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sMonas%2C%20Gambir%2C%20Kecamatan%20Gambir%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sen!2sid!4v1635724073773!5m2!1sen!2sid"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78909.61131605673!2d114.32427516331913!3d-8.142673911885828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd1456c414665fd%3A0x8d5c2e4fadc4ccf9!2sRUMAH%20CUKUR!5e1!3m2!1sen!2sid!4v1749871018557!5m2!1sen!2sid"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -88,15 +88,6 @@ const LocationSection: React.FC = () => {
                   referrerPolicy="no-referrer-when-downgrade"
                   className="rounded-lg"
                 ></iframe>
-              </div>
-              
-              <div className="mt-4 text-center">
-                <button
-                  onClick={openMaps}
-                  className="text-primary-300 hover:text-primary-400 transition-colors text-sm font-medium"
-                >
-                  Lihat peta yang lebih besar →
-                </button>
               </div>
             </div>
           </div>
