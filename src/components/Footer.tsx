@@ -25,16 +25,18 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Kontak & Lokasi</h3>
             <div className="space-y-3">
-              <div className="flex items-center space-x-3 text-gray-400">
-                <MapPin className="h-5 w-5 text-primary-300" />
-                <span>RUMAH CUKUR, Jl. Letkol Istiqlah No.135, Lingkungan Mojoroto R, Penataban, Kec. Giri, Kabupaten Banyuwangi, Jawa Timur 68422</span>
+            <div className="flex items-start space-x-3 text-gray-400">
+              <MapPin className="h-8 w-8 text-primary-300 mt-1" />
+              <span className="leading-snug">
+                Jl. Letkol Istiqlah No.135, Lingkungan Mojoroto R, Penataban, Kec. Giri, Kabupaten Banyuwangi, Jawa Timur 68422
+              </span>
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
-                <Phone className="h-5 w-5 text-primary-300" />
+                <Phone className="h-6 w-6 text-primary-300" />
                 <span>+62 859-2174-4189</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
-                <Clock className="h-5 w-5 text-primary-300" />
+                <Clock className="h-6 w-6 text-primary-300" />
                 <span>09:00 - 21:00 WIB</span>
               </div>
             </div>
